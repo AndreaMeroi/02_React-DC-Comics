@@ -17,19 +17,19 @@ export default function AppMain() {
                     </li>
                     <li>
                         <img src={DcMerch} alt="" />
-                        <a href="">digital comics</a>
-                    </li>
-                    <li>
-                        <img src={DcShopLoc} alt="" />
-                        <a href="">digital comics</a>
-                    </li>
-                    <li>
-                        <img src={DcPowerVisa} alt="" />
-                        <a href="">digital comics</a>
+                        <a href="">digital merchandise</a>
                     </li>
                     <li>
                         <img src={DcSubs} alt="" />
-                        <a href="">digital comics</a>
+                        <a href="">subscription</a>
+                    </li>
+                    <li>
+                        <img src={DcShopLoc} alt="" />
+                        <a href="">comic shop locator</a>
+                    </li>
+                    <li>
+                        <img src={DcPowerVisa} alt="" />
+                        <a href="">dc power visa</a>
                     </li>
                 </ul>
             </nav>

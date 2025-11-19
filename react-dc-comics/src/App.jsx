@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import AppHeader from './components/AppHeader'
-import AppMain
-  from './components/AppMain'
+import AppMain from './components/AppMain'
+import AppFooter from './components/AppFooter'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -9,8 +9,9 @@ function App() {
     <>
       <AppHeader />
       <AppMain />
+      <AppFooter />
 
-      <footer></footer>
+
     </>
   )
 }
