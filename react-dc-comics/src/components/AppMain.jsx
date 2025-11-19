@@ -8,31 +8,41 @@ export default function AppMain() {
     return (
 
         <main>
-            <h3> Content goes Here  </h3>
-            <nav>
-                <ul>
-                    <li>
-                        <img src={DcImage} alt="" />
-                        <a href="">digital comics</a>
-                    </li>
-                    <li>
-                        <img src={DcMerch} alt="" />
-                        <a href="">digital merchandise</a>
-                    </li>
-                    <li>
-                        <img src={DcSubs} alt="" />
-                        <a href="">subscription</a>
-                    </li>
-                    <li>
-                        <img src={DcShopLoc} alt="" />
-                        <a href="">comic shop locator</a>
-                    </li>
-                    <li>
-                        <img src={DcPowerVisa} alt="" />
-                        <a href="">dc power visa</a>
-                    </li>
-                </ul>
-            </nav>
+
+            <div className='mainContainer'>
+
+
+                <h3>Content goes Here</h3>
+
+                <nav >
+                    <ul>
+                        <li>
+                            <img src={DcImage} alt="" />
+                            <a href="">digital comics</a>
+                        </li>
+                        <li>
+                            <img src={DcMerch} alt="" />
+                            <a href="">digital merchandise</a>
+                        </li>
+                        <li>
+                            <img src={DcSubs} alt="" />
+                            <a href="">subscription</a>
+                        </li>
+                        <li>
+                            <img src={DcShopLoc} alt="" />
+                            <a href="">comic shop locator</a>
+                        </li>
+                        <li>
+                            <img src={DcPowerVisa} alt="" />
+                            <a href="">dc power visa</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+
+
         </main>
     )
 }
